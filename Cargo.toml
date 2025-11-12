@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bevy = { version = "0.16.1" , features = ["dynamic_linking"] }
-bevy-inspector-egui = "0.33.1"
+bevy = { version = "0.17" , features = ["dynamic_linking"] }
+bevy-inspector-egui = "0.35"
+bevy_procedural_tilemaps = "0.1"
 
 [profile.dev]
 opt-level = 1

@@ -46,71 +46,6 @@ pub const TILEMAP: TilemapDefinition = TilemapDefinition {
             pixel_y: 0,
         },
         TilemapSprite {
-            name: "yellow_grass",
-            pixel_x: 0,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_in_tl",
-            pixel_x: 32,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_in_tr",
-            pixel_x: 64,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_in_bl",
-            pixel_x: 32,
-            pixel_y: 288,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_in_br",
-            pixel_x: 64,
-            pixel_y: 288,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_out_tl",
-            pixel_x: 96,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_out_tr",
-            pixel_x: 128,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_out_bl",
-            pixel_x: 96,
-            pixel_y: 288,
-        },
-        TilemapSprite {
-            name: "yellow_grass_corner_out_br",
-            pixel_x: 128,
-            pixel_y: 288,
-        },
-        TilemapSprite {
-            name: "yellow_grass_side_t",
-            pixel_x: 160,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_side_r",
-            pixel_x: 192,
-            pixel_y: 256,
-        },
-        TilemapSprite {
-            name: "yellow_grass_side_l",
-            pixel_x: 160,
-            pixel_y: 288,
-        },
-        TilemapSprite {
-            name: "yellow_grass_side_b",
-            pixel_x: 192,
-            pixel_y: 288,
-        },
-        TilemapSprite {
             name: "green_grass",
             pixel_x: 160,
             pixel_y: 0,
@@ -174,6 +109,136 @@ pub const TILEMAP: TilemapDefinition = TilemapDefinition {
             name: "green_grass_side_b",
             pixel_x: 96,
             pixel_y: 96,
+        },
+        TilemapSprite {
+            name: "water",
+            pixel_x: 32,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_corner_in_tl",
+            pixel_x: 64,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_corner_in_tr",
+            pixel_x: 96,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_corner_in_bl",
+            pixel_x: 64,
+            pixel_y: 224,
+        },
+        TilemapSprite {
+            name: "water_corner_in_br",
+            pixel_x: 96,
+            pixel_y: 224,
+        },
+        TilemapSprite {
+            name: "water_corner_out_tl",
+            pixel_x: 128,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_corner_out_tr",
+            pixel_x: 160,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_corner_out_bl",
+            pixel_x: 128,
+            pixel_y: 224,
+        },
+        TilemapSprite {
+            name: "water_corner_out_br",
+            pixel_x: 160,
+            pixel_y: 224,
+        },
+        TilemapSprite {
+            name: "water_side_t",
+            pixel_x: 192,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_side_r",
+            pixel_x: 224,
+            pixel_y: 192,
+        },
+        TilemapSprite {
+            name: "water_side_l",
+            pixel_x: 192,
+            pixel_y: 224,
+        },
+        TilemapSprite {
+            name: "water_side_b",
+            pixel_x: 224,
+            pixel_y: 224,
+        },
+        TilemapSprite {
+            name: "yellow_grass",
+            pixel_x: 0,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_in_tl",
+            pixel_x: 32,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_in_tr",
+            pixel_x: 64,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_in_bl",
+            pixel_x: 32,
+            pixel_y: 288,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_in_br",
+            pixel_x: 64,
+            pixel_y: 288,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_out_tl",
+            pixel_x: 96,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_out_tr",
+            pixel_x: 128,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_out_bl",
+            pixel_x: 96,
+            pixel_y: 288,
+        },
+        TilemapSprite {
+            name: "yellow_grass_corner_out_br",
+            pixel_x: 128,
+            pixel_y: 288,
+        },
+        TilemapSprite {
+            name: "yellow_grass_side_t",
+            pixel_x: 160,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_side_r",
+            pixel_x: 192,
+            pixel_y: 256,
+        },
+        TilemapSprite {
+            name: "yellow_grass_side_l",
+            pixel_x: 160,
+            pixel_y: 288,
+        },
+        TilemapSprite {
+            name: "yellow_grass_side_b",
+            pixel_x: 192,
+            pixel_y: 288,
         },
     ]
 };

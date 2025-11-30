@@ -5,8 +5,10 @@ edition = "2024"
 
 [dependencies]
 bevy = { version = "0.17" , features = ["dynamic_linking"] }
+bevy_common_assets = { version = "0.14", features = ["ron"] }
 bevy-inspector-egui = "0.35"
 bevy_procedural_tilemaps = "0.1"
+serde = { version = "1.0", features = ["derive"] }
 
 [profile.dev]
 opt-level = 1
